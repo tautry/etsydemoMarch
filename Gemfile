@@ -1,3 +1,4 @@
+source "https://code.stripe.com"
 source 'https://rubygems.org'
 
 gem 'rails', '4.1.0'
@@ -12,6 +13,7 @@ gem 'carrierwave-dropbox'
 gem "figaro"
 gem "mini_magick"
 gem 'devise'
+gem 'stripe'
 
 group :production do
 gem 'pg'
