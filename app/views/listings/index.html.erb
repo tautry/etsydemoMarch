@@ -9,7 +9,7 @@
       <div class="row">
         <% @listings.each do |listing| %>  
         <div class="col-md-3">
-     <%= link_to image_tag(listing.image_url(:thumb)), listing %>
+     <%= link_to image_tag(listing.image_url(:thumbnail)), listing %>
         <div class="caption">
           <h3><%= listing.name %></h3>
           <p><%= number_to_currency(listing.price) %></p>

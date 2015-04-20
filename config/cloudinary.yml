@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: ddyfrqetp
+  api_key: '122699124635675'
+  api_secret: yvfvrAMKtafYeQ3uJ1oBJ8BGVs0
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: ddyfrqetp
+  api_key: '122699124635675'
+  api_secret: yvfvrAMKtafYeQ3uJ1oBJ8BGVs0
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: ddyfrqetp
+  api_key: '122699124635675'
+  api_secret: yvfvrAMKtafYeQ3uJ1oBJ8BGVs0
+  enhance_image_tag: true
+  static_image_support: false
